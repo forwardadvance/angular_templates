@@ -1,0 +1,30 @@
+<!--
+  Exercise Start point for:
+  http://forwardadvance.com/angular-live/templates
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Templates</title>
+    <script src="angular.js"></script>
+  </head>
+  <body ng-app>
+
+      <h2>Hello World</h2>
+      {{"hello " + "world"}}
+
+      <h2>Seconds in a day</h2>
+      {{24 * 60 * 60}}
+
+      <h2>Seconds in a year</h2>
+      {{365.25 * 24 * 60 * 60}}
+
+      <h2>Seconds in a century</h2>
+      {{100 * 365.25 * 24 * 60 * 60}}
+
+      <h2>Weeks in a lifetime</h2>
+      {{365.25 * 80 / 7 | number}}
+
+  </body>
+</html>
